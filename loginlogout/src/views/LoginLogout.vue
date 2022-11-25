@@ -14,7 +14,7 @@
           <input type="password" name="password" />
         </label>
 
-        <button class="submit" type="submit">Cadastrar</button>
+        <button class="submit" type="submit">Cadastrar - Clique aqui</button>
       </form>
     </div>
 
@@ -31,7 +31,7 @@
           <input type="password" name="password" />
         </label>
 
-        <button class="submit" type="submit">Logar</button>
+        <button class="submit" type="submit">Logar - Clique aqui</button>
       </form>
     </div>
   </div>
@@ -93,4 +93,31 @@ label span {
   color: #505f75;
   text-transform: uppercase;
 }
-</style>
+
+input {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  font-size: 16px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(109, 93, 93, 0.4);
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  width: 260px;
+  height: 36px;
+  border-radius: 30px;
+  background-color: blue;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+}
+
+button:hover {
+  background-color: red;
+}
+</style>u
